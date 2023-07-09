@@ -39,8 +39,15 @@ font-weight: 700;
 }
 
 /* images heading reled styls */
+ .plane-header{
+    text-align: center;
+    
+ }
+
 .images-part{
     display: flex;
+    
+
 }
 .image{
     margin-left: 250px;
@@ -76,4 +83,46 @@ font-size: 16px;
 
 font-weight: 400;
 line-height: 26px;
+}
+/* plane section releted stytls */
+
+.plane-header{
+margin-top: 100px;
+}
+
+.p{
+ color: #151414;
+font-size: 40px;
+
+font-weight: 700;
+
+}
+.plane-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.images-icon{
+    margin:100px;
+    margin-top:50px;
+}
+.images-icon > h3 {
+    color: #151414;
+font-size: 30px;
+font-weight: 700;
+
+}
+.images-icon > p{
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+   
+}
+
+.plane-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
